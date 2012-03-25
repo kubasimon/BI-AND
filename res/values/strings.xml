@@ -6,4 +6,6 @@
     <string name="catalog">Katalog</string>
     <string name="lipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae varius justo. Aenean lorem enim, vulputate vel posuere quis, posuere sed massa. Ut aliquet blandit nisl ut varius. Nullam ultricies commodo nisl, suscipit rutrum purus tristique eu. Morbi in nulla lectus, in lacinia ligula. Vivamus condimentum tincidunt arcu, sed egestas leo venenatis a. Ut bibendum, augue non dignissim imperdiet, odio mi hendrerit justo, nec pretium felis eros quis nisl. Quisque dictum porta justo eget faucibus. Sed vel est eu mi semper tempus sed sit amet felis. Nunc nec mauris est, ut rhoncus eros. Ut lectus lacus, tristique sit amet ornare ac, pulvinar ut sapien. Praesent venenatis augue eget felis lacinia luctus. Aliquam sagittis mattis nisi, eu aliquet tortor bibendum ut. Quisque auctor eleifend cursus.</string>
 
+    
+    <string name="showResults">Zobrazit rostliny</string>
 </resources>

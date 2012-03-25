@@ -4,11 +4,43 @@
     android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
     >
+    
+    <RelativeLayout
+        android:orientation="horizontal" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">               
+        
+        <TextView                 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/stepCount"
+			android:text="Krok 1/3"
+			android:layout_alignParentRight="true"
+			android:padding="2pt"
+			android:layout_below="@+id/resultsCount"
+			android:layout_margin="3pt"	            
+		/>    
+                           
+       	<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/resultsCount"                                             
+			android:text="Rostlin: 300"
+			android:layout_alignParentRight="true"			
+			android:padding="2pt"
+			android:layout_margin="3pt"
+		/>
+       	
+       	<Button 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/showResults"
+            android:text="@string/showResults"
+            android:layout_toLeftOf="@+id/stepCount"
+			android:padding="5pt"	
+            />
+        
 	       
-	<TextView 
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="@string/search"
-		android:layout_margin="5pt"
-			/>           
+        </RelativeLayout>               
+	       	    
 </LinearLayout>
