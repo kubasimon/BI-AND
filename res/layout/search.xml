@@ -38,6 +38,7 @@
             android:text="@string/showResults"
             android:layout_toLeftOf="@+id/stepCount"
 			android:padding="5pt"	
+			android:onClick="switchToSearchResults"
             />
         
 	       

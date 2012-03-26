@@ -1,6 +1,7 @@
 package cz.cvut.simonja3;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
@@ -33,6 +34,11 @@ public class SearchActivity extends Activity {
         expandAllGroups();
     }
 	
+	
+	public void switchToSearchResults(View view) {
+		Intent intent = new Intent(view.getContext(), SearchResultsActivity.class);
+    	this.startActivity(intent);
+	}
 	
 	private void expandAllGroups() {
 		int count =  listAdapter.getGroupCount();

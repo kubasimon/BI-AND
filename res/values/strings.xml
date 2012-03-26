@@ -8,4 +8,6 @@
 
     
     <string name="showResults">Zobrazit rostliny</string>
+    
+    <string name="searchResults">Výsledek hledání</string>
 </resources>

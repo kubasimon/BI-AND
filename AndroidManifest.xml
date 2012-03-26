@@ -22,6 +22,10 @@
             android:name=".SearchActivity"
             android:label="@string/search"
             ></activity>
+        <activity 
+            android:name=".SearchResultsActivity"
+            android:label="@string/searchResults"
+            ></activity>
     </application>
 
 </manifest>
