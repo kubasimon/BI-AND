@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/detailPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/imageDescription"
+            android:src="@drawable/kvet2" />
+
+        <TextView
+            android:id="@+id/detailCzechNameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detailCzechNameTitle"
+            android:textSize="6pt" />
+
+        <TextView
+            android:id="@+id/detailCzechName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1pt"
+            android:paddingBottom="2pt"
+            android:text="česnáček lékařský"
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/detailLatinNameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detailLatinNameTitle"
+            android:textSize="6pt" />
+
+        <TextView
+            android:id="@+id/detailLatinName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1pt"
+            android:padding="2pt"
+            android:text="Alliaria petiolata"
+            android:textSize="10pt" />
+        
+        <TextView
+            android:id="@+id/detailBlossomTimeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:text="@string/detailBlossomTimeTitle"
+            android:textSize="6pt" />
+        
+        <TextView
+            android:id="@+id/detailLatinName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1pt"
+            android:padding="2pt"
+            android:text="duben, květen, červen"
+            android:textSize="8pt" />
+        
+        <TextView
+            android:id="@+id/detailVyskovyStupenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:text="@string/detailVyskovyStupenTitle"
+            android:textSize="6pt" />
+        
+        <TextView
+            android:id="@+id/detailVyskovyStupen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1pt"
+            android:padding="2pt"
+            android:text="nížiny, pahorkatiny, podhůří"
+            android:textSize="8pt" />
+        
+        <TextView
+            android:id="@+id/detailBiotopTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:text="@string/detailBiotopTitle"
+            android:textSize="6pt" />
+        
+        <TextView
+            android:id="@+id/detailBiotop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1pt"
+            android:padding="2pt"
+            android:text="křoviny, les, sad/zahrada/park, rumiště/skládka/kompost, lesní lem/okraj křovin"
+            android:textSize="8pt" />
+        
+        <TextView
+            android:id="@+id/detailPlodTypeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:text="@string/detailPlodTypeTitle"
+            android:textSize="6pt" />
+        
+        <TextView
+            android:id="@+id/detailPlodType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1pt"
+            android:padding="2pt"
+            android:text="šešule"
+            android:textSize="8pt" />
+        
+        <TextView
+            android:id="@+id/detailLifeFormTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:text="@string/detailLifeFormTitle"
+            android:textSize="6pt" />
+        
+        <TextView
+            android:id="@+id/detailLifeForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1pt"
+            android:padding="2pt"
+            android:text="hemikryptofyt (Hkf): bylina - obnovovací pupeny u země"
+            android:textSize="8pt" />        
+
+    </LinearLayout>
+
+</ScrollView>

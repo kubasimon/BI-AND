@@ -8,10 +8,10 @@
 
      <ListView android:id="@android:id/list"
                android:layout_width="fill_parent"
-               android:layout_height="fill_parent"
-               android:background="#00FF00"
+               android:layout_height="0dip"               
                android:layout_weight="1"
-               android:drawSelectorOnTop="false"/>
+               android:drawSelectorOnTop="false"
+               />
 
      <TextView android:id="@android:id/empty"
                android:layout_width="fill_parent"

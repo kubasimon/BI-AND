@@ -3,19 +3,14 @@ package cz.cvut.simonja3;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.ContextMenu;
-import android.view.ContextMenu.ContextMenuInfo;
 import android.view.Gravity;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
-import android.widget.ExpandableListView.ExpandableListContextMenuInfo;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class SearchActivity extends Activity {
 	
@@ -42,8 +37,9 @@ public class SearchActivity extends Activity {
 	
 	private void expandAllGroups() {
 		int count =  listAdapter.getGroupCount();
-		for (int i = 0; i <count ; i++)
-		  listView.expandGroup(i);		
+		for (int i = 0; i <count ; i++) {
+		  listView.expandGroup(i);	
+		}
 	}
 
 
